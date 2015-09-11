@@ -71,7 +71,9 @@ PARAMS['install_requires'] = [
 #     * sphinx_rtd_theme
 #     * numpydoc
 
-PARAMS['extras_require'] = {}
+PARAMS['extras_require'] = {
+    'tornado': [ 'tornado', ],
+}
 
 PARAMS['test_suite'] = 'nose.collector'
 PARAMS['tests_require'] = [
